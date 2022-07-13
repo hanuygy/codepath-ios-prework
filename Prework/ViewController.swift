@@ -19,15 +19,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         // Set the title in Navigation Bar
         self.title = "Tip Calculator"
+        
         
     }
     
     // responsive to tip changes
     @IBAction func calculateTip(_ sender: Any) {
+        
         // Get bill amount from the bill text field input
         let bill = Double(billAmountTextField.text!) ?? 0
 
@@ -54,8 +55,6 @@ class ViewController: UIViewController {
     
     // responsive to party size changes
     @IBAction func getPartySize(_ sender: Any) {
-        // Update party size
-        partySizeLabel.text = "\(Int(partySizeStepper.value))"
 
         // Get bill amount from the bill text field input
         let bill = Double(billAmountTextField.text!) ?? 0
@@ -69,6 +68,9 @@ class ViewController: UIViewController {
 
         // Get the total per person
         let total = (bill + tip) / partySize
+        
+        // Update party size
+        partySizeLabel.text = "\(Int(partySizeStepper.value))"
 
         // Update tip amount
         tipAmountLabel.text = String(format: "$%.2f", tip)
@@ -76,7 +78,6 @@ class ViewController: UIViewController {
         // Update total amount per person
         totalLabel.text = String(format: "$%.2f", total)
     }
-    
     
 }
 
