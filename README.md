@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="https://imgur.com/a/NoCSWCN.gif"/>
+<img src="https://i.imgur.com/BYSU8mD.gif"/>
 ## Notes
 
 Describe any challenges encountered while building the app.
