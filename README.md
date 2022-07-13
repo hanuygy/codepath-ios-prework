@@ -33,6 +33,7 @@ Here's a walkthrough of implemented user stories:
 ## Notes
 
 Describe any challenges encountered while building the app.
+Can't get the settings page tip value to be displayed on the main screen and used for total calculation.
 
 ## License
 
