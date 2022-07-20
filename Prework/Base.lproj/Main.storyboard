@@ -108,7 +108,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="ScK-nN-fQy">
                             <color key="tintColor" systemColor="labelColor"/>
                             <connections>
-                                <segue destination="MSl-32-30N" kind="presentation" id="MZx-az-jSs"/>
+                                <segue destination="MSl-32-30N" kind="show" id="MZx-az-jSs"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -131,7 +131,7 @@
             <objects>
                 <viewController id="MSl-32-30N" customClass="SettingsViewController" customModule="Prework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VEl-Xd-V2W">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Default Tips:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMR-WV-T5Q" userLabel="Default Tips">
@@ -155,18 +155,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSn-y6-v7I">
-                                <rect key="frame" x="344" y="21" width="65" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Done">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="sendSettingBackButton:" destination="MSl-32-30N" eventType="touchUpInside" id="4tQ-wl-64a"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6EF-Wz-qsV"/>
                         <color key="backgroundColor" red="0.72150743009999996" green="0.8103279471" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

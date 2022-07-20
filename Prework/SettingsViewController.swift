@@ -19,8 +19,8 @@ class SettingsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func sendSettingBackButton(_ sender: Any) {
-        dismiss(animated: true)
+    override func viewWillDisappear(_ animated: Bool) {
+        UserDefaults.standard.set(defaultTipsSlider.value, forKey: "defaultTip")
     }
     
     @IBAction func setDefaultTip(_ sender: Any) {
