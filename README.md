@@ -4,7 +4,7 @@ Tip Calculator is a tip calculator application for iOS.
 
 Submitted by: Josephine Huang
 
-Time spent: 3 hours spent in total
+Time spent: 5 hours spent in total
 
 ## User Stories
 
@@ -24,12 +24,16 @@ The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 - [x] Add a Settings Screen to the Tip Calculator
+- [x] Pass default tip amount back from settings
+- [x] Added party size stepper
+- [x] Changed tip segmented control to a slider
+- [x] Changed background color
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src="https://i.imgur.com/BYSU8mD.gif"/>
+<img src="https://i.imgur.com/59Pa0AF.mp4"/>
 ## Notes
 
 Describe any challenges encountered while building the app.
