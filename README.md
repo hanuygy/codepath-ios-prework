@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="https://i.imgur.com/59Pa0AF.mp4"/>
+<img src="https://i.imgur.com/8DrtS9X.gif"/>
 ## Notes
 
 Describe any challenges encountered while building the app.
